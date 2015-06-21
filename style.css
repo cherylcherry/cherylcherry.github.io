@@ -1,8 +1,7 @@
 .intro-bg{
-	background: url("images/intro.jpg") /*fixed*/;
+	background: url("images/intro.jpg");
 	background-size: cover;
 	height: 667px;
-	/*margin-top: 50px;*/
 }
 
 .intro-txt{
@@ -22,7 +21,7 @@
 
 .arrow{
 	font-size: 50px;
-	margin-top: 80px;
+	margin-top: 50px;
 	color: rgb(250, 214, 40);
 }
 
@@ -55,4 +54,53 @@
 
 .sub-section p{
 	font-style: italic;
+}
+
+#skills{
+	padding: 50px 0px 50px 0px;
+}
+
+.skills-bg{
+	background: url("images/skill.png");
+	background-size: cover;
+	height: 667px;
+}
+
+.skill-col h4{
+	color: rgb(217, 156, 91);
+	font-weight: bolder;
+}
+
+
+
+/* PIE CHART STYLES */
+.chart {
+    position: relative;
+    display: inline-block;
+    width: 200px; 
+    height: 200px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.percent {
+    display: inline-block;
+    line-height: 200px; 
+    z-index: 2;
+    font-size: 2em;
+    color: white;
+}
+
+.percent:after {
+    content: '%';
+    margin-left: 0.1em;
+    font-size: 1em;
+    color: white;
 }
