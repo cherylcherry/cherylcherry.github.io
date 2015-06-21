@@ -92,6 +92,25 @@
 	margin: 20px 150px;
 }
 
+.quote-bg{
+	background: url("images/quote.png");
+	background-size: cover;
+	height: 667px;
+}
+
+.quote-block{
+	margin: 170px 0px 0px 100px;
+	font-size: 37px;
+}
+
+.quote-block p{
+	color: black;
+}
+
+.quote-block footer{
+	color: rgb(130, 53, 40);
+}
+
 /* PIE CHART STYLES */
 .chart {
     position: relative;
