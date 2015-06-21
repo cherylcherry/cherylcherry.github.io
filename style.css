@@ -71,7 +71,26 @@
 	font-weight: bolder;
 }
 
+#contact{
+	background-color: black;
+	padding: 50px 0px 50px 0px;
+	color: white;
+}
 
+.contact-details{
+	margin: 50px 0px 0px 150px;
+	font-family: monospace;
+
+}
+
+.contact-icon{
+	font-size: 20px;
+}
+
+.pic{
+	float: right;
+	margin: 20px 150px;
+}
 
 /* PIE CHART STYLES */
 .chart {
