@@ -25,3 +25,34 @@
 	margin-top: 80px;
 	color: rgb(250, 214, 40);
 }
+
+#about{
+	background-color: black;
+	padding: 50px 0px 50px 0px;
+}
+
+.titles{
+	color: #C6C3C5;
+}
+
+.titles h3{
+	font-size: 25px;
+	font-family: serif;
+}
+
+.titles span{
+	background: #8C868A;
+	height: 1px;
+	width: 20%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.sub-section{
+	color: white;
+	margin-top: 55px;
+}
+
+.sub-section p{
+	font-style: italic;
+}
