@@ -1,0 +1,27 @@
+.intro-bg{
+	background: url("images/intro.jpg") /*fixed*/;
+	background-size: cover;
+	height: 667px;
+	/*margin-top: 50px;*/
+}
+
+.intro-txt{
+	margin-top: 370px;
+	font-family: monospace;
+}
+
+.intro-txt h1{
+	font-weight: bold;
+	font-size: 55px;
+}
+
+.intro-txt h2{
+	font-size: 30px;
+	color: rgb(217, 156, 91);
+}
+
+.arrow{
+	font-size: 50px;
+	margin-top: 80px;
+	color: rgb(250, 214, 40);
+}
