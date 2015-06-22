@@ -22,6 +22,9 @@
 .arrow{
 	font-size: 50px;
 	margin-top: 50px;
+}
+
+.arrow a{
 	color: rgb(250, 214, 40);
 }
 
@@ -93,14 +96,14 @@
 }
 
 .quote-bg{
-	background: url("images/quote.png");
+	background: url("images/quote1.png");
 	background-size: cover;
-	height: 667px;
+	height: 300px;
 }
 
 .quote-block{
-	margin: 170px 0px 0px 100px;
-	font-size: 37px;
+	margin: 50px 0px 0px 100px;
+	font-size: 40px;
 }
 
 .quote-block p{
